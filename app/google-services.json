@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "752819259660",
+    "firebase_url": "https://proj2022-3cd0d-default-rtdb.firebaseio.com",
+    "project_id": "proj2022-3cd0d",
+    "storage_bucket": "proj2022-3cd0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752819259660:android:c4d713dbcc20415d43e129",
+        "android_client_info": {
+          "package_name": "com.jungsoo.indoornavigationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752819259660-faudi28gj7frum7pu0knuiosqtrr7vl9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA53skG2jkG0-ODBSE420SLFmMgP328fb0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752819259660-faudi28gj7frum7pu0knuiosqtrr7vl9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

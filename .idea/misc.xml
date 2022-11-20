@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/wjdeo/IndoorNavigationApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1955" />
+        <entry key="..\:/Users/wjdeo/IndoorNavigationApp/app/src/main/res/drawable/btn_dark.xml" value="0.264" />
+        <entry key="..\:/Users/wjdeo/IndoorNavigationApp/app/src/main/res/drawable/btn_weakblue_background.xml" value="0.289" />
+        <entry key="..\:/Users/wjdeo/IndoorNavigationApp/app/src/main/res/drawable/btn_weakblue_background_nontouch.xml" value="0.289" />
+        <entry key="..\:/Users/wjdeo/IndoorNavigationApp/app/src/main/res/drawable/btn_weakblue_background_touch.xml" value="0.289" />
+        <entry key="..\:/Users/wjdeo/IndoorNavigationApp/app/src/main/res/drawable/btn_white.xml" value="0.2775" />
+        <entry key="..\:/Users/wjdeo/IndoorNavigationApp/app/src/main/res/drawable/currentposbtn.xml" value="0.209" />
+        <entry key="..\:/Users/wjdeo/IndoorNavigationApp/app/src/main/res/drawable/currentposbtncml.xml" value="0.209" />
+        <entry key="..\:/Users/wjdeo/IndoorNavigationApp/app/src/main/res/drawable/currentposxml.xml" value="0.209" />
+        <entry key="..\:/Users/wjdeo/IndoorNavigationApp/app/src/main/res/drawable/darkblue_btn.xml" value="0.289" />
+        <entry key="..\:/Users/wjdeo/IndoorNavigationApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1955" />
+        <entry key="..\:/Users/wjdeo/IndoorNavigationApp/app/src/main/res/drawable/searchbar.xml" value="0.29" />
+        <entry key="..\:/Users/wjdeo/IndoorNavigationApp/app/src/main/res/layout/activity_fourth_floor.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wjdeo/IndoorNavigationApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/wjdeo/IndoorNavigationApp/app/src/main/res/layout/activity_map.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wjdeo/IndoorNavigationApp/app/src/main/res/layout/activity_search_list.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wjdeo/IndoorNavigationApp/app/src/main/res/layout/activity_splash.xml" value="0.4717330861909175" />
+        <entry key="..\:/Users/wjdeo/IndoorNavigationApp/app/src/main/res/layout/activity_third_floor.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wjdeo/IndoorNavigationApp/app/src/main/res/layout/destination_list.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wjdeo/IndoorNavigationApp/app/src/main/res/layout/fragment_map.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/wjdeo/IndoorNavigationApp/app/src/main/res/layout/fragment_map_btn.xml" value="0.2760416666666667" />
+        <entry key="..\:/Users/wjdeo/IndoorNavigationApp/app/src/main/res/layout/fragment_search.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wjdeo/IndoorNavigationApp/app/src/main/res/layout/fragment_search_list.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/wjdeo/IndoorNavigationApp/app/src/main/res/layout/searchbar.xml" value="0.3515625" />
+        <entry key="..\:/Users/wjdeo/IndoorNavigationApp/app/src/main/res/menu/menu.xml" value="0.36614583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

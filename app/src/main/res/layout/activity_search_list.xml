@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchListActivity">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/departSearch"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="67dp"
+        android:background="@drawable/btn_weakblue_background"
+        app:iconifiedByDefault="true"
+        app:queryHint="출발지 검색" />
+
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/arriveSearch"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/departSearch"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_weakblue_background"
+        app:iconifiedByDefault="true"
+        app:queryHint="목적지 검색" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/arriveSearch"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="6dp"
+        android:layout_below="@+id/departSearch"
+        android:background="@drawable/darkblue_btn"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        android:text="안내 시작" />
+
+    <ListView
+        android:id="@+id/destList"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_below="@+id/arriveSearch"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white" />
+
+
+</RelativeLayout>
