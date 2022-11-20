@@ -27,7 +27,7 @@ public class MapActivity extends AppCompatActivity implements MapBtnFragment.Ima
     private SearchFragment searchfragment;
 
     // 3층, 4층 맵 이미지 저장 배열
-    int []mapImages = {R.drawable.mapsample, R.drawable.mapsample4};
+    int []mapImages = {R.drawable.mapsample, R.drawable.mapsample4, R.drawable.currentposxml};
 
 
     @Override
@@ -99,26 +99,31 @@ public class MapActivity extends AppCompatActivity implements MapBtnFragment.Ima
 //        return true;
 //    }
 
-    // mapImage 이미지 뷰에 지도 이미지 세팅하는 콜백 함수
+    // 이미지 뷰에 지도 이미지, 현재 위치 아이콘 세팅하는 콜백 함수
     @Override
     public void onImageSelected(int position) {
-        ImageView mapImage = findViewById(R.id.mapImage);
-        mapImage.setImageResource(mapImages[position]);
-        //mapfragment.setImage(mapImages[position]);
+        // 지도 이미지 출력
+        if (position < 2) {
+            ImageView mapImage = findViewById(R.id.mapImage);
+            mapImage.setImageResource(mapImages[position]);
+            //mapfragment.setImage(mapImages[position]);
+        }
 
-        ImageView currentPosIcon = findViewById(R.id.currentPosIcon);
-        currentPosIcon.setImageResource(R.drawable.currentposxml);
-        View currentPosV = findViewById(R.id.currentPosIcon);
-        View mapV = findViewById(R.id.mapImage);
+        // 현재 위치 아이콘 출력
+        else if (position == 2) {
+            ImageView currentPosIcon = findViewById(R.id.currentPosIcon);
+            currentPosIcon.setImageResource(mapImages[position]);
+            View currentPosV = findViewById(R.id.currentPosIcon);
+            View mapV = findViewById(R.id.mapImage);
 
-        currentPosV.setX(mapV.getLeft()+500);
-        currentPosV.setY(mapV.getTop()+500);
+            currentPosV.setX(mapV.getLeft()+500);
+            currentPosV.setY(mapV.getTop()+500);
 
-        ObjectAnimator animation = ObjectAnimator.ofFloat(currentPosV, "translationY", 600f);
-        animation.setDuration(2000);
-        animation.start();
+            ObjectAnimator animation = ObjectAnimator.ofFloat(currentPosV, "translationY", 600f);
+            animation.setDuration(2000);
+            animation.start();
 
-
+        }
 
     }
 }

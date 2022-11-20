@@ -38,8 +38,9 @@ public class MapBtnFragment extends Fragment {
 
         Button thirdFloorBtn = (Button) rootView.findViewById(R.id.thirdFloorBtn);
         Button fourthFloorBtn = (Button) rootView.findViewById(R.id.fourthFloorBtn);
+        Button confirmCurrentPosBtn = (Button) rootView.findViewById(R.id.currentPosBtn);
 
-        // 이벤트
+        // 버튼 클릭 이벤트
         thirdFloorBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -50,6 +51,12 @@ public class MapBtnFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 callback.onImageSelected(1);
+            }
+        });
+        confirmCurrentPosBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                callback.onImageSelected(2);
             }
         });
 
